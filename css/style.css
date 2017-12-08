@@ -1098,7 +1098,7 @@ svg.logo text {
     border: 0;
     outline: 0;
     width: 100%;
-    max-width: 420px;
+    max-width: 320px;
     
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -3279,7 +3279,7 @@ svg.logo text {
     position: relative;
     display: inline-block;
     width: 100%;
-    max-width: 665px;
+    max-width: 565px;
 }
 
 #header-holder.domainspage-header #page-head .domain-search-holder .input-holder #domain-text {
