@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-5 ">
                 <div class="icons-axis">
-                     <a href="#pricing" class="abtn abtn-accent-color abtn-shadow">ANUNCIE SUA VAGA</a>
+                     <a href="#"  onClick="scrollToView()" class="abtn abtn-accent-color abtn-shadow">ANUNCIE SUA VAGA</a>
                 </div>
             </div>
             <div class="col-md-1">           
@@ -147,7 +147,7 @@
     </div>
 </div>
 <div style='background-color:  #2c2571' id="footer" class="container-fluid">
-    <div class="container">
+    <div class="container" id="announce">
         <div  class="row">
             <div class="col-md-12">
                 <div class="col-md-12">
@@ -177,41 +177,45 @@
 <div style='background-color: #211c56' id="footer" class="container-fluid">
     <div class="container">
         <div  class="row">
-            <div class="col-md-6">
+            
                 <div class="address-holder">
                     <div style='padding-bottom: 20px' class="icons-axis">
                         <img style='width: 25%' src="images/logo-footer.png" alt="">
                     </div>
-                    <div class="phone"><i class="fa fa-phone"></i> +55 31 99206-0063</div>
-                    <div class="email"><i class="fa fa-envelope"></i> bernardo.ribeiro@zuliapp.com</div>
+                    <div class="phone"> +55 31 99206-0063</div>
+                    <div class="email">bernardo.ribeiro@zuliapp.com</div>
                     <div class="address">
-                        <i class="fa fa-map-marker"></i> 
                         <div>Avenida Flávio dos Santos, 372 - Belo Horizonte/MG.</div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
+            
+           
                 <div class="footer-menu-holder">
                     <ul class="footer-menu">
-                        <li><a href="about.html">Fale conosco</a></li>
-                        <li><a href="blog.html">Termos de uso</a></li>
-                        <li><a href="faq.html">Política de privacisdade</a></li>
+                        <li><a href="mailto:erikasoares96@gmail.com">Fale conosco</a></li>
+                        <li><a href="../TERMOS E CONDICOES-DHL.pdf" download="termosecondicoes">Termos de uso</a></li>
+                        <li><a href="../TERMOS E CONDICOES-DHL.pdf" download="termosecondicoes">Política de privacidade</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-md-3">
+            
+           
                 <div class="footer-menu-holder">
                     <ul class="footer-menu">
-                        <li><a href="about.html">Facebook</a></li>
+                        <li><a href="https://www.facebook.com/zuliapp">Facebook</a></li>
                         <li><a href="blog.html">Twitter</a></li>
                         <li><a href="faq.html">Instagram</a></li>
                         <li><a href="faq.html">Youtube</a></li>
                     </ul>
                 </div>
-            </div>
+            
         </div>
     </div>
 </div>
+<script>
+    function scrollToView () {
+        document.getElementById('announce').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-slider.min.js"></script>

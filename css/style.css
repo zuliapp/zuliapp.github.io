@@ -33,11 +33,17 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
 
 @import url("../fonts/hostify.css");
+
+@import url("../fonts/CeraGRBold.otf");
+
+@import url("https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans")
+
+
 /*------------------------------------------------------------------
 	1. General Styles
 -------------------------------------------------------------------*/
 *, body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -642,7 +648,7 @@ a, input[type="submit"] {
 }
 
 .logo-holder {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     font-size: 19px;
     font-weight: 500;
@@ -671,7 +677,7 @@ svg.logo {
 }
 
 svg.logo text {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     fill: #ffffff;
 }
@@ -1036,6 +1042,7 @@ svg.logo text {
     font-weight: 700;
     line-height: 62px;
     margin-bottom: 40px;
+    
 }
 
 #top-content .big-title-purple {
@@ -1074,6 +1081,7 @@ svg.logo text {
 #top-content .labels .celPhone{
     height: 100px,
     width: 100px;
+
 }
 
 #top-content .labels span {
@@ -1300,7 +1308,7 @@ svg.logo text {
 }
 
 .service-box .service-title a :after {
-    font-family: "hostify" !important;
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
     content: "\6b";
     font-size: 10px;
@@ -1456,7 +1464,7 @@ svg.logo text {
 .pricing-box.pricing-box-simple:before {
     position: absolute;
     content: "\62";
-    font-family: "hostify" !important;
+    font-family: 'Open Sans', sans-serif;
     top: 54px;
     right: 84px;
     -webkit-transition: all 0.3s ease;
@@ -1782,7 +1790,7 @@ svg.logo text {
 .pricing-box.featured .pricing-content:after {
     position: absolute;
     content: "\f005";
-    font-family: "fontAwesome";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     top: 0;
     left: 20px;
@@ -1888,7 +1896,7 @@ svg.logo text {
 }
 
 .custom-plan-box .slider .tooltip {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
@@ -2465,7 +2473,7 @@ svg.logo text {
 }
 
 #footer ul.footer-menu li a {
-    color: #ccc9fb;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 300;
     padding: 2px 15px;
@@ -2500,7 +2508,7 @@ svg.logo text {
 #footer .phone {
     color: #ffffff;
     font-size: 15px;
-    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 15px;
     border-radius: 10px;
     padding: 15px 25px;
@@ -2517,16 +2525,19 @@ svg.logo text {
     margin-right: 7px;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #footer .phone a {
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #footer .phone:hover {
     background-color: #6159d1;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    font-family: 'Open Sans', sans-serif;
 }
 
 #footer .email {
@@ -3039,7 +3050,7 @@ svg.logo text {
 
 .signin-signup-form .form-text input[type="checkbox"]:checked + label:after, .signin-signup-form .form-text input[type="checkbox"]:not(:checked) + label:after {
     content: '\f00c';
-    font-family: "fontAwesome";
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
     top: 2px;
     left: 2px;
@@ -4223,7 +4234,7 @@ svg.logo text {
 
 #post-content .post .meta .view:before {
     content: "\f06e";
-    font-family: fontAwesome;
+    font-family: 'Open Sans', sans-serif;
     color: #756de7;
     margin-right: 10px;
 }
@@ -4235,7 +4246,7 @@ svg.logo text {
 
 #post-content .post .meta .like:before {
     content: "\f004";
-    font-family: fontAwesome;
+    font-family: 'Open Sans', sans-serif;
     color: #756de7;
     margin-right: 10px;
 }
@@ -4257,7 +4268,7 @@ svg.logo text {
 
 #post-content .post .meta .comment:before {
     content: "\f27a";
-    font-family: fontAwesome;
+    font-family: 'Open Sans', sans-serif;
     color: #756de7;
     margin-right: 10px;
 }
@@ -4459,7 +4470,7 @@ svg.logo text {
 #contact-info .info-box .info-title:before {
     display: inline-block;
     color: #ffffff;
-    font-family: "FontAwesome";
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 23px;
     vertical-align: middle;
@@ -5170,12 +5181,15 @@ svg.logo text {
     }
 
     #footer .phone {
-        font-size: 13px;
-        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: left;
+        color: #ffffff;
     }
 
     #footer .email {
-        font-size: 13px;
+        font-size: 15px;
         margin-bottom: 0;
     }
 
@@ -5570,7 +5584,7 @@ svg.logo text {
     }
 
     #footer .address .fa {
-        font-size: 19px;
+        font-size: 15px;
     }
 
     #footer .email {
@@ -5585,10 +5599,12 @@ svg.logo text {
     #footer .phone {
         padding: 15px 0px 15px 15px;
         margin-bottom: 5px;
+        font-family: 'Open Sans', sans-serif;
     }
 
     #footer .phone .fa {
         font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
     }
 
     #apps .row-title:before {
