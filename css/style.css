@@ -627,7 +627,7 @@ a, input[type="submit"] {
     width: 100%;
     height: 78%;
     min-height:  78%;
-    background-image: url(../images/Bitmap.png), linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
+    background-image: url(../images/BGHome.jpg), linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #756de7;
@@ -1138,12 +1138,10 @@ svg.logo text {
     color: #ffffff;
     font-weight: 300;
     font-family: OpenSansText;
-    background-image: linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
     line-height: 26px;
     margin-bottom: 40px;
     margin-top: 30px;
     padding-top: 30px;
-    padding-bottom: 40px
 }
 
 #top-content .labels .celPhone{
@@ -2787,7 +2785,7 @@ svg.logo text {
     top: -20%;
     width: 100%;
     min-height: 60%;
-    background-image: url(../images/Bitmap.png), linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
+    background-image: url(../images/BGHome.jpg), linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     -webkit-transform: skewY(-10deg);
