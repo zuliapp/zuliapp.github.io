@@ -515,12 +515,16 @@ a, input[type="submit"] {
 
 .label-purple-text {
         
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 18px;
     font-family: OpenSansText;
     color: #3f3d59;
     line-height: 26px;
 
+}
+
+.label-purple-text.extra {
+    margin-bottom: 82px;
 }
 
 .button-submit {
