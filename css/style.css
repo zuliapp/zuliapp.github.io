@@ -629,7 +629,8 @@ a, input[type="submit"] {
     min-height:  78%;
     background-image: url(../images/BGHome.jpg), linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     background-color: #756de7;
     z-index: -1;
 }
