@@ -365,6 +365,17 @@ a, input[type="submit"] {
     background-color: #e14eeb;
 }
 
+@media (max-width: 990px) {
+    .space-logo {
+        margin-bottom: 30px;
+       
+    }
+}
+
+.space-logo {
+    padding: 0px;
+}
+
 
 .abtn {
     border: 0;
