@@ -77,7 +77,7 @@ a, input[type="submit"] {
 }
 
 .rectangle-4-Copy-2 {
-  height: 320px;
+  height: 370px;
   padding: 36px;
   border-radius: 20px;
   background-color: #ffffff;
@@ -447,7 +447,7 @@ a, input[type="submit"] {
     color: #6a36eb;
     line-height: 55px;
     margin-bottom: 40px;
-
+    margin-top: 20px;
 }
 
 .label-purple-box {
@@ -478,7 +478,7 @@ a, input[type="submit"] {
     color: #2C2571;
     font-family: CeraBold;
     line-height: 55px;
-
+    text-align: left;
 }
 
 .tittle-box {
@@ -1305,7 +1305,6 @@ svg.logo text {
     background-repeat: no-repeat;
     height: 255px;
     position: relative;
-
 }
 
 .play-button {
