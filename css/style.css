@@ -1302,6 +1302,7 @@ svg.logo text {
 .video-tutorial {
     background-image: url(../images/iluhero.png);
     background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 255px;
     position: relative;
 
