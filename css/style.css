@@ -78,10 +78,12 @@ a, input[type="submit"] {
 
 .rectangle-4-Copy-2 {
 
-  height: 350px;
+  height: 300px;
+  width: 420;
+  padding: 36px;
   border-radius: 20px;
   background-color: #ffffff;
-  margin: 20px;
+  margin-top: 20px;
   box-shadow: 0 4px 9px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -141,11 +143,28 @@ a, input[type="submit"] {
 }
 
 .advertisement {
-    font-size: 38px;
+    font-size: 45px;
     color: #ffffff;
     font-family: CeraBold;
-    line-height: 62px;
-    margin-bottom: 40px;    
+    line-height: 55px;
+    margin-bottom: 82px;    
+}
+
+.cta {
+    position: relative;
+    max-width: 480px;
+    margin: 0  auto;
+}
+
+.cta-input {
+    width: calc(100% - 112px) !important;
+}
+
+.cta-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+
 }
 
 .desktop-HD {
@@ -404,19 +423,19 @@ a, input[type="submit"] {
 }
 
 .label-purple {
-    font-size: 40px;
+    font-size: 45px;
     color: #2C2571;
     font-family: CeraBold;
-    line-height: 62px;
+    line-height: 55px;
     margin-bottom: 40px;
 
 }
 
 .label-purple-blue {
-    font-size: 40px;
+    font-size: 45px;
     font-family: CeraBold;
     color: #6a36eb;
-    line-height: 62px;
+    line-height: 55px;
     margin-bottom: 40px;
 
 }
@@ -427,8 +446,16 @@ a, input[type="submit"] {
     font-weight: 400;
     font-family: OpenSansText;
     line-height: 32px;
-    margin-bottom: 40px;
+    margin-top: 32px;
 
+}
+
+.title-underline {
+    background-color: #D3AFFF;
+    height: 5px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 8px auto 0 auto;
 }
 
 .teste{
@@ -437,18 +464,18 @@ a, input[type="submit"] {
 }
 
 .tittle-purple {
-    font-size: 40px;
+    font-size: 45px;
     color: #2C2571;
     font-family: CeraBold;
-    line-height: 62px;
+    line-height: 55px;
 
 }
 
 .tittle-box {
-    font-size: 17px;
+    font-size: 24px;
     color: #2C2571;
     font-family: CeraBold;
-    line-height: 32px;
+    line-height: 24px;
 }
 
 .titlle-purple-blue {
@@ -465,17 +492,24 @@ a, input[type="submit"] {
     color: #2C2571;
     font-family: CeraBold;
     line-height: 62px;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
+
+}
+
+.box {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 115px;
 
 }
 
 .label-purple-text {
-    padding-left: 15%;
-    padding-right: 15%;
+        
     margin-bottom: 30px;
     font-size: 18px;
     font-family: OpenSansText;
     color: #3f3d59;
+    line-height: 26px;
 
 }
 
@@ -1053,10 +1087,10 @@ svg.logo text {
 }
 
 #top-content .big-title {
-    font-size: 48px;
+    font-size: 45px;
     font-family: CeraBold;
     color: #ffffff;
-    line-height: 62px;
+    line-height: 55px;
     margin-bottom: 40px;
 
 }
@@ -1086,11 +1120,12 @@ svg.logo text {
 }
 
 #top-content .labels {
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 300;
     font-family: OpenSansText;
-    line-height: 30px;
+    background-image: linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
+    line-height: 26px;
     margin-bottom: 40px;
     margin-top: 30px;
     padding-top: 30px;
@@ -1238,12 +1273,41 @@ svg.logo text {
 }
 
 #info .info-text {
-    padding-left: 15%;
-    padding-right: 15%;
+   
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 18px;
     font-family: OpenSansText;
     color: #3f3d59;
+    line-height: 26px;
+}
+
+.play-icon {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin-left: 6px;
+}
+
+.video-tutorial {
+    background-image: url(../images/iluhero.png);
+    background-size: 100%;
+    height: 255px;
+    position: relative;
+
+}
+
+.play-button {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.08), 0 4px 9px 0 rgba(50,50,93,0.11);
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -55px;
+    margin-left: -55px;
+    border-radius: 55px;
 }
 
 #h-info {
@@ -1253,8 +1317,7 @@ svg.logo text {
 }
 
 #h-info .info-text {
-    padding-left: 15%;
-    padding-right: 15%;
+    
     margin-top: 30px;
     font-size: 22px;
     font-weight: 300;
@@ -5433,8 +5496,7 @@ svg.logo text {
     }
 
     #info .info-text {
-        padding-left: 5%;
-        padding-right: 5%;
+        
         font-family: OpenSansText;
     }
 
