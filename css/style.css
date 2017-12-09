@@ -77,14 +77,24 @@ a, input[type="submit"] {
 }
 
 .rectangle-4-Copy-2 {
-
-  height: 300px;
-  width: 420;
+  height: 370px;
   padding: 36px;
   border-radius: 20px;
   background-color: #ffffff;
   margin-top: 20px;
   box-shadow: 0 4px 9px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+@media (min-width: 1000px) {
+    .rectangle-4-Copy-2 {
+        height: 380px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rectangle-4-Copy-2 {
+        height: 320px;
+    }
 }
 
 .box-testemunho {
@@ -437,7 +447,7 @@ a, input[type="submit"] {
     color: #6a36eb;
     line-height: 55px;
     margin-bottom: 40px;
-
+    margin-top: 20px;
 }
 
 .label-purple-box {
@@ -468,7 +478,7 @@ a, input[type="submit"] {
     color: #2C2571;
     font-family: CeraBold;
     line-height: 55px;
-
+    text-align: left;
 }
 
 .tittle-box {
@@ -1291,10 +1301,10 @@ svg.logo text {
 
 .video-tutorial {
     background-image: url(../images/iluhero.png);
-    background-size: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 255px;
     position: relative;
-
 }
 
 .play-button {
