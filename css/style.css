@@ -630,6 +630,12 @@ a, input[type="submit"] {
     padding-top: 15px;
 }
 
+@media (min-width: 454px) {
+    .bg-animation {
+        height: 1000px;
+    }
+}
+
 
 
 #header-holder .bg-animation {
@@ -638,7 +644,7 @@ a, input[type="submit"] {
     left: 0%;
     top: -0%;
     width: 100%;
-    height: 700px;
+    height: 725px;
     min-height:  78%;
     background-image: url(../images/BGHome.jpg), linear-gradient(-90deg, rgba(44,37,113,0.00) 2%, rgba(44,37,113,0.30) 51%, rgba(44,37,113,0.00) 100%);
     background-repeat: no-repeat;
