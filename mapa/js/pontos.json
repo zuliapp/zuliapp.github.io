@@ -59,5 +59,29 @@
     	"Latitude": -19.9339998,
     	"Longitude": -43.9426,
 		"Descricao": "Vaga Alugada"
+  	},
+	{
+		"Id": 11,
+    	"Latitude": -19.93231398,
+    	"Longitude": -43.9435132,
+		"Descricao": "<br>Endereço:Rua Tomaz Gonzaga, 444</br><br>Dias disponíveis: Segunda à Sábado</br><br>Segurança: Porteiro 24h, câmeras de segurança</br><br>Localização da vaga: vaga 1</br><br>Vaga mensal</br><br>Valor: R$190,00</br>"
+  	},
+	{
+		"Id": 12,
+    	"Latitude": -19.9322398,
+    	"Longitude": -43.9435132,
+"Descricao": "<br>Endereço:Rua Tomaz Gonzaga, 444</br><br>Dias disponíveis: Segunda à Sábado</br><br>Segurança: Porteiro 24h, câmeras de segurança</br><br>Localização da vaga: vaga 2</br><br>Vaga mensal</br><br>Valor: R$190,00</br>"
+  	},
+	{
+		"Id": 13,
+    	"Latitude": -19.9321898,
+    	"Longitude": -43.9435132,
+		"Descricao": "<br>Endereço:Rua Tomaz Gonzaga, 444</br><br>Dias disponíveis: Segunda à Sábado</br><br>Segurança: Porteiro 24h, câmeras de segurança</br><br>Localização da vaga: vaga 3</br><br>Vaga mensal</br><br>Valor: R$190,00</br>"
+  	},
+	{
+		"Id": 14,
+    	"Latitude": -19.9339998,
+    	"Longitude": -43.9426,
+		"Descricao": "Vaga Alugada"
   	}
 ]
